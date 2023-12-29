@@ -1,0 +1,67 @@
+body {
+    color: $black;
+}
+
+.icon {
+    display: inline-flex;
+
+    &--xsm {
+        width: 12px;
+        min-width: 12px;
+    }
+
+    &--sm {
+        width: 20px;
+        min-width: 20px;
+    }
+
+    &--md {
+        width: 35px;
+        min-width: 35px;
+    }
+
+    &--lg {
+        width: 45px;
+        min-width: 45px;
+    }
+
+    svg {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.cta {
+    display: inline-flex;
+    min-width: 185px;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: center;
+
+    &--golden {
+        background-color: $golden;
+        color: #fff;
+    }
+
+    &--icon {
+        gap: 10px;
+
+        .icon {
+            width: 0;
+            height: 35px;
+            overflow: hidden;
+            transition: all ease-in-out 250ms;
+
+            svg {
+                width: 35px;
+                height: 35px;
+            }
+        }
+
+        &:hover {
+            .icon {
+                width: 35px;
+            }
+        }
+    }
+}
