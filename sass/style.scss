@@ -1,0 +1,22 @@
+/*!
+Theme Name: KR1
+Theme URI: http://underscores.me/
+Author: Designous
+Author URI: https://www.designous.gr/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: kr1
+*/
+/** Theme utils */
+@import './utils/colors';
+@import './utils/reset';
+@import './utils/generic';
+/** Components */
+@import './components/header';
+@import './components/footer';
+/** Pages */
+@import './pages/homepage';
