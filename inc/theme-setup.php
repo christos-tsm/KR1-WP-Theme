@@ -30,6 +30,8 @@ function kr1_setup() {
     register_nav_menus(
         array(
             'menu-1' => esc_html__('Primary', 'kr1'),
+            'footer-menu-1' => esc_html__('Footer Menu 1', 'kr1'),
+            'footer-menu-2' => esc_html__('Footer Menu 2', 'kr1'),
         )
     );
 

@@ -1,0 +1,19 @@
+.site-main--blog {
+    margin-top: 125px;
+}
+
+.page-template-news {
+    .projects-grid {
+        display: flex;
+        flex-wrap: wrap;
+
+        .post-card {
+            flex: initial;
+            width: calc(50% - 80px);
+        }
+
+        .post-card:first-child {
+            flex-basis: 100%;
+        }
+    }
+}

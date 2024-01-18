@@ -18,5 +18,17 @@ Text Domain: kr1
 /** Components */
 @import './components/header';
 @import './components/footer';
+@import './components/post-card';
+@import './components/breadcrump';
+@import './components/page-header';
+@import './components/single-header';
 /** Pages */
 @import './pages/homepage';
+@import './pages/projects';
+@import './pages/about';
+@import './pages/services';
+@import './pages/single-services';
+@import './pages/news';
+@import './pages/contact';
+@import './pages/single-post';
+@import './pages/single-projects';

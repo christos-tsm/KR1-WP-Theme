@@ -1,0 +1,30 @@
+.breadcrump {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    &__container {
+        padding: 20px 0;
+    }
+
+    &__item>a,
+    &__item {
+        font-size: 12px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-transform: uppercase;
+        transition: all ease-in-out 250ms;
+
+        .icon--xsm {
+            width: 6px;
+            min-width: 6px;
+        }
+    }
+
+    &__item>a:hover {
+        color: $golden;
+    }
+
+}

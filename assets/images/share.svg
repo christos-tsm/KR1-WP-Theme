@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+    <g id="Group_31404" data-name="Group 31404" transform="translate(-1331.239 -693.071)">
+        <g id="Rectangle_11280" data-name="Rectangle 11280" transform="translate(1381.239 693.071) rotate(90)" fill="none" stroke="#30302f" stroke-width="1.5">
+            <rect width="50" height="50" rx="25" stroke="none"/>
+            <rect x="0.75" y="0.75" width="48.5" height="48.5" rx="24.25" fill="none"/>
+        </g>
+        <g id="Icon_feather-share-2" data-name="Icon feather-share-2" transform="translate(1348.321 710.571)">
+            <path id="Path_4703" data-name="Path 4703" d="M27.206,5.353A2.353,2.353,0,1,1,24.853,3a2.353,2.353,0,0,1,2.353,2.353Z" transform="translate(-13.088 -3)" fill="none" stroke="#30302f" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="1.5"/>
+            <path id="Path_4704" data-name="Path 4704" d="M9.206,15.853A2.353,2.353,0,1,1,6.853,13.5,2.353,2.353,0,0,1,9.206,15.853Z" transform="translate(-4.5 -8.01)" fill="none" stroke="#30302f" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="1.5"/>
+            <path id="Path_4705" data-name="Path 4705" d="M27.206,26.353A2.353,2.353,0,1,1,24.853,24,2.353,2.353,0,0,1,27.206,26.353Z" transform="translate(-13.088 -13.019)" fill="none" stroke="#30302f" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="1.5"/>
+            <path id="Path_4706" data-name="Path 4706" d="M12.885,20.265l5.357,3.122" transform="translate(-8.501 -11.237)" fill="none" stroke="#30302f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+            <path id="Path_4707" data-name="Path 4707" d="M18.234,9.765l-5.349,3.122" transform="translate(-8.501 -6.228)" fill="none" stroke="#30302f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+    </g>
+</svg>

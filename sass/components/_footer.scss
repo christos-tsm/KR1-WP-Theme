@@ -1,0 +1,169 @@
+.site-footer {
+    background-color: $black;
+    padding: 80px 0 20px;
+    position: relative;
+
+    .back-to-top {
+        position: absolute;
+        top: 50%;
+        right: 50px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // gap: 10px;
+
+        .text {
+            writing-mode: vertical-lr;
+            background-color: $black;
+            transition: all ease-in-out 250ms;
+            margin-left: 4px;
+            padding: 10px 0;
+        }
+
+        &:hover {
+            .text {
+                transform: translateY(-30px);
+            }
+        }
+    }
+
+    &__columns {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 130px;
+
+        &-single {
+            a {
+                color: #fff;
+                text-transform: uppercase;
+                font-size: 16px;
+                line-height: 35px;
+            }
+
+            h5 {
+                color: #fff;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+                margin-top: 15px;
+                font-size: 20px;
+            }
+        }
+    }
+
+    &__contact {
+        ul {
+            display: flex;
+            flex-direction: column;
+
+            li {
+                color: #fff;
+                line-height: 45px;
+
+                a {
+                    text-transform: none;
+                    font-size: 20px;
+                    color: $golden;
+                    line-height: 45px;
+                    transition: all ease-in-out 250ms;
+
+                    &:hover {
+                        opacity: 0.5;
+                    }
+                }
+
+                &:last-child {
+                    a {
+                        color: #fff;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.copyrights {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-top: 20px;
+    border-top: 1px solid $golden;
+    position: relative;
+
+    p {
+        color: #fff;
+        font-size: 14px;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: -5px;
+        left: 0;
+        width: 8px;
+        height: 8px;
+        background-color: $golden;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: -5px;
+        right: 0;
+        width: 8px;
+        height: 8px;
+        background-color: $golden;
+    }
+}
+
+.pulse {
+    width: 14px;
+    margin: -3px 3px 0 3px;
+}
+
+.designous-credits a {
+    color: #fff;
+    transition: all ease-in-out 250ms;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.designous-credits a:hover {
+    opacity: 0.5;
+}
+
+.designous-credits .pulse {
+    -webkit-animation: pulse 0.7s linear infinite;
+    -moz-animation: pulse 0.7s linear infinite;
+    -ms-animation: pulse 0.7s linear infinite;
+    animation: pulse 0.7s linear infinite;
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}

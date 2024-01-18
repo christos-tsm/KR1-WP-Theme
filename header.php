@@ -12,7 +12,7 @@
 	<?php wp_body_open(); ?>
 	<?php $header_logo = get_field('header_logo', 'option'); ?>
 	<div id="page" class="site">
-		<header class="site-header">
+		<header class="site-header <?= !is_front_page() ? 'site-header--black' : '' ?>">
 			<div class="site-header__content">
 				<a aria-label="Homepage Link" href="<?= pll_home_url() ?>">
 					<img src="<?= $header_logo['url'] ?>" alt="<?= bloginfo('name'); ?>">

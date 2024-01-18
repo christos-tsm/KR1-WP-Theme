@@ -33,8 +33,23 @@ require get_template_directory() . '/inc/scripts.php';
 require get_template_directory() . '/inc/utils.php';
 
 /**
+ * Custom Post Types
+ */
+require get_template_directory() . '/inc/cpt.php';
+
+/**
  * Load Jetpack compatibility file.
  */
 if (defined('JETPACK__VERSION')) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+/**
+ * Projects AJAX
+ */
+require get_template_directory() . '/inc/projects-ajax.php';
+
+/**
+ * Posts AJAX
+ */
+require get_template_directory() . '/inc/posts-ajax.php';

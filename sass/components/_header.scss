@@ -1,5 +1,5 @@
 .site-header {
-    position: absolute;
+    position: fixed;
     top: 20px;
     left: 50%;
     width: 100%;
@@ -7,10 +7,16 @@
     transform: translateX(-50%);
     max-width: 1810px;
 
+
     &__content {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        transition: all ease-in-out 250ms;
+
+        &>a {
+            transition: all ease-in-out 250ms;
+        }
     }
 }
 
@@ -24,6 +30,12 @@
                 color: #fff;
                 font-size: 16px;
                 letter-spacing: 1.2px;
+                text-transform: uppercase;
+                transition: all ease-in-out 250ms;
+
+                &:hover {
+                    color: $golden;
+                }
             }
         }
     }
@@ -67,10 +79,14 @@
                 transition: all ease-in-out 250ms;
                 pointer-events: none;
 
-
                 a {
                     padding: 15px 0;
                     color: #fff;
+                    transition: all ease-in-out 250ms;
+
+                    &:hover {
+                        color: $golden;
+                    }
                 }
             }
 
@@ -86,6 +102,16 @@
                     }
                 }
             }
+        }
+    }
+}
+
+.site-header--black {
+    .site-header__content {
+        background-color: $black;
+
+        &>a {
+            margin-left: 40px;
         }
     }
 }

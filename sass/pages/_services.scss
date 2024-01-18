@@ -1,0 +1,114 @@
+.services-content {
+    display: flex;
+
+    &__col {
+        flex: 1;
+        display: flex;
+        align-items: center;
+
+        &--l {
+            background-color: #787874;
+
+            p {
+                max-width: 340px;
+                margin: 0 auto;
+            }
+
+            .image-container {
+                display: flex;
+                overflow: hidden;
+            }
+
+            img {
+                width: 485px;
+                height: 100%;
+                object-fit: cover;
+                transition: all ease-in-out 250ms;
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+            }
+        }
+
+        &--r {
+            justify-content: center;
+            position: relative;
+
+            .hero-section__scroll-down {
+                right: auto;
+                bottom: 30px;
+                left: 40px;
+
+                .text {
+                    color: $black;
+                }
+            }
+
+            .logo-texture {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+        }
+    }
+
+    &__text {
+        &--l {
+            flex: 1;
+
+            p {
+                color: #fff;
+                font-size: 25px;
+                line-height: 38px;
+                // letter-spacing: 1.2px;
+            }
+        }
+
+        &--r {
+            p {
+                max-width: 560px;
+                margin: 0 auto;
+                font-size: 16px;
+                letter-spacing: 1.2px;
+                line-height: 28px;
+            }
+        }
+    }
+}
+
+.services-cards__container--archive {
+    padding: 100px 0;
+    background-color: $black;
+
+    .services-grid {
+        margin-top: 0;
+        gap: 90px;
+    }
+
+    .services-grid__item-title {
+        .number {
+            color: $golden;
+            font-size: 25px;
+            margin-top: 18px;
+        }
+    }
+
+    .section-title {
+        margin-bottom: 18px;
+    }
+
+    .section-title a {
+        color: #fff;
+    }
+
+    .services-grid__item-excerpt {
+        color: #fff;
+
+        p {
+            font-size: 16px;
+            letter-spacing: 1.2px;
+            line-height: 28px;
+        }
+    }
+}
